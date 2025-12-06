@@ -3,14 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>my name is put</h1>
-    <h2>welcome to CE nextgen #3</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At molestias ab in vel quasi eveniet, eaque alias recusandae ipsam earum amet ut quos qui cum.</p>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="#about"></a>about</li>
+            <li><a href="my-work.html" id="my-work">my work</a></li>
+            <li><a href="hobbies.html" id="hobbies">hobbies</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Put Tiwutanon</h1>
+    </header>
+
+    <div class="about" id="about">
+        <div class="about-contents">
+            <div class="PFimg">
+                <img src="pics/20250929_175759.jpg" alt="" width="450px">
+            </div>
+            <div class="about-myself">
+                <h1>ABOUT ME</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi totam quam facere at asperiores omnis fugit corporis vitae dolorem perspiciatis! Perferendis, quos odit pariatur veritatis magnam, rem doloribus laudantium animi eaque facilis rerum quasi nulla, expedita culpa consequuntur aliquid nihil vel ab debitis non! Ea magni, deleniti harum officia tenetur aliquid dignissimos facilis? Quam fuga dolores delectus deleniti consectetur porro quae similique nesciunt ipsa eos, exercitationem reiciendis nihil, aliquam temporibus dignissimos. Rerum maiores impedit similique voluptatem. Odit consequatur odio ducimus.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-work">
+        <h1>MY-WORK</h1>
+        <div class="work-items-container">
+            <div class="work-items club-president">
+                <img src="pics\20250808_143756.jpg" alt="" width="500px">
+                <div class="work-description">
+                    <h2>club president</h2>
+                    <p>damn this diddy blud is a club president</p>
+                    <a href="my-work.html">more</a>
+                </div>
+            </div>
+
+            <div class="work-items modelling" >
+                <div class="work-description">
+                    <h2>3d modelling</h2>
+                    <p>yes i could also 3d model</p>
+                    <a href="my-work.html">more</a>
+                </div>
+                <img src="pics\Screenshot 2025-07-09 004409.png" alt="" width="500px">
+            </div>
+
+            <div class="work-items web-dev">
+                <img src="pics\Screenshot 2025-11-18 000243.png" alt="" width="500px">
+                <div class="work-description">
+                    <h2>web development</h2>
+                    <p>i am a wannabe fullstack dev</p>
+                    <a href="my-work.html">more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hobbies">
+        <h1>HOBBIES</h1>
+        <div class="work-items-container">
+            <div class="work-items club-president">
+                <img src="pics\Screenshot 2025-11-01 034802.png" alt="" width="500px">
+                <div class="work-description">
+                    <h2>programming</h2>
+                    <p>i both hate and love this god forsaken hobby</p>
+                    <a href="hobbies.html">more</a>
+                </div>
+            </div>
+
+            <div class="work-items modelling" >
+                <div class="work-description">
+                    <h2>collecting antiques</h2>
+                    <p>this hobby solely costed me 100,000 baht</p>
+                    <a href="hobbies.html">more</a>
+                </div>
+                <img src="pics\50a8adf4-d3d7-41c6-982c-fcbb8c0c07f5.jpg" alt="" width="500px">
+            </div>
+
+            <div class="work-items web-dev">
+                <img src="pics\istockphoto-1298279823-612x612.jpg" alt="" width="500px">
+                <div class="work-description">
+                    <h2>sleeping</h2>
+                    <p>sleep 24/7</p>
+                    <a href="hobbies.html">more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>CONTACT</h1>
+        <ul id="contact">
+            <li><img src="pics\email-1-svgrepo-com.png" alt="" width="40px"><p id="email"></p></li>
+            <li><img src="pics\facebook-3-logo-svgrepo-com.png" alt="" width="40px"><p id="fb"></p></li>
+            <li><img src="pics\instagram-2-1-logo-svgrepo-com.png" alt="" width="40px"><p id="ig"></p></li>
+            <li><img src="pics\telephone-call-phone-svgrepo-com.png" alt="" width="40px"><p id="tel"></p></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <h2>© Puttiwutanon</h2>
+    </div>
 
 
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
